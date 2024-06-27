@@ -28,5 +28,5 @@ app.get("/", (req, res) => {
 
 
 app.listen(PORT, () => {
-    console.log("Backend is connected");
+    console.log(`Backend is listening at ${PORT}`);
 })
