@@ -171,7 +171,6 @@ exports.login = async (req, res) => {
 };
 
 
-
 // Send OTP For Email Verification
 exports.sendotp = async (req, res) => {
 	try {
